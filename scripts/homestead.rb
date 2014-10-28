@@ -67,5 +67,10 @@ class Homestead
         end
       end
     end
+
+    # Setup OpenLDAP
+    config.vm.provision "shell" do |s|
+      s.inline = "bash /vagrant/scripts/setup-ldap.sh"
+    end
   end
 end
