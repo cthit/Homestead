@@ -9,7 +9,7 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/git-repos/Homestead/Code
+    - map: Code
       to: /home/vagrant/Code
 
 sites:
