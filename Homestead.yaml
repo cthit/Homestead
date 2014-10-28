@@ -15,7 +15,7 @@ folders:
 sites:
     - map: auth
       to: /home/vagrant/Code/auth/public
-      map: chalmersit-laravel
+    - map: chalmersit-laravel
       to: /home/vagrant/Code/chalmersit-laravel/public
 
 variables:
