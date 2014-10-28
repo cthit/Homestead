@@ -1,6 +1,6 @@
 [submodule "Code/chalmersit-account"]
 	path = Code/chalmersit-account
-	url = https://github.com/cthit/chalmersit-account.git
+	url = git@github.com:cthit/chalmersit-account.git
 [submodule "Code/chalmersit-laravel"]
 	path = Code/chalmersit-laravel
-	url = https://github.com/cthit/chalmersit-laravel.git
+	url = git@github.co:/cthit/chalmersit-laravel.git
