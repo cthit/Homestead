@@ -18,6 +18,10 @@ sites:
     - map: chalmersit-laravel
       to: /home/vagrant/Code/chalmersit-laravel/public
 
+databases:
+    - name: chalmersit_laravel
+    - name: chalmersit_account
+
 variables:
     - key: APP_ENV
       value: local

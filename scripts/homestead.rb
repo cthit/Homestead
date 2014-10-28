@@ -72,5 +72,13 @@ class Homestead
     config.vm.provision "shell" do |s|
       s.inline = "bash /vagrant/scripts/setup-ldap.sh"
     end
+
+    # create project databases
+    settings["databases"].each do |db|
+        config.vm.provision "shell" do |s|
+            s.path = "./scripts/dbcreator.sh"
+            s.args = [db["name"]]
+        end
+    end
   end
 end
