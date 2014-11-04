@@ -3,4 +3,4 @@
 	url = git@github.com:cthit/chalmersit-account.git
 [submodule "Code/chalmersit-laravel"]
 	path = Code/chalmersit-laravel
-	url = git@github.com:/cthit/chalmersit-laravel.git
+	url = git@github.com:cthit/chalmersit-laravel.git
