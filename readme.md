@@ -1,3 +1,5 @@
+# Deprecated, see [chalmers.it](https://github.com/cthit/chalmersit-rails)
+
 # digIT Homestead
 
 The digIT [Laravel](http://laravel.com/) local development environment.
